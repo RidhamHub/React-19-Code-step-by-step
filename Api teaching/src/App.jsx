@@ -5,14 +5,11 @@ import { Routes, Route, NavLink } from "react-router";
 import UserEdit from "./UserEdit";
 
 function App() {
-
-  
- 
   return (
     <>
       <div>
-        <ul className="navlist">
-          <li> 
+        <ul classNameName="navlist">
+          <li>
             <NavLink to="/"> List </NavLink>
           </li>
           <li>
@@ -34,4 +31,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
